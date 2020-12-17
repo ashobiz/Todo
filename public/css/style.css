@@ -1,7 +1,8 @@
 /* Style for Todo list.
    Designed by K.R.Ashok */
 body{
-  background: #f4f4f4
+  background: #f4f4f4;
+  font-family: sans-serif;
 }
 .app{
   background: #ffd66b;
@@ -68,7 +69,11 @@ body{
   width: 60%;
   font-size: 13px;
   line-height: 13px;
+  margin: 0;
+  margin-bottom: 5px;
   padding: 10px 10px;
+  border:0px;
+  border-radius: 4px;
 }
 .app .input-item .input-btn{
   border-radius: 4px;
@@ -79,12 +84,11 @@ body{
   font-weight: bold;
   text-transform: uppercase;
   transition: background 0.2s;
+  border:0;
+  cursor: pointer;
 }
 .app .input-item .input-btn[type="reset"]{
   background: #fafafa;
-}
-.app .input-item .btn-mt{
-  margin-top: 8px;
 }
 .app .input-item .input-btn:hover{
   background: #ca9d2c;
