@@ -1,0 +1,113 @@
+/* Style for Todo list.
+   Designed by K.R.Ashok */
+body{
+  background: #f4f4f4
+}
+.app{
+  background: #ffd66b;
+  max-width: 400px;
+  margin: 20px auto;;
+  border: 1px solid #e7b63a;
+  border-right: 3px solid #e7b63a;
+  border-bottom: 3px solid #e7b63a;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #ccc;
+  padding: 15px;
+}
+.app h1{
+  margin:0;
+  margin-bottom:5px;
+  font-size:25px;
+  color: #333;
+}
+.app h2{
+  display: inline-block;
+  padding:3px 8px;
+  background: #e7b63a;
+  margin: 5px 0;
+  border:1px solid #dfaa25;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #805f0c;
+  font-weight: bold;
+}
+.app ul{
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+.app ul li{
+  margin-bottom: 13px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #dfaa25;
+  position: relative;
+  font-size: 14px;
+}
+.app ul li span{
+  cursor: pointer;
+}
+.app ul li span:first-child{  
+  position: absolute;
+  right: 30px;
+  color:#7e5f12;
+}
+.app ul li span:last-child{  
+  position: absolute;
+  right: 5px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  font-size: 11px;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 100%;
+  background-color: #654062;
+  color: #fff;
+}
+.app .input-item .input-field{
+  width: 60%;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 10px;
+}
+.app .input-item .input-btn{
+  border-radius: 4px;
+  margin-left: 4px;
+  background: #e7b63a;
+  font-size: 13px;
+  padding: 10px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.2s;
+}
+.app .input-item .input-btn[type="reset"]{
+  background: #fafafa;
+}
+.app .input-item .btn-mt{
+  margin-top: 8px;
+}
+.app .input-item .input-btn:hover{
+  background: #ca9d2c;
+}
+.app .error, .app .no-item{
+  margin: 10px 0;
+  background: #805f0c;
+  font-size: 13px;
+  padding: 10px;
+  color: #fff;
+  font-style: italic;
+  border: 1px solid #49380c;
+  display: inline-block;
+  border-radius: 3px;
+}
+footer{
+  text-align: center;
+  margin: 10px;
+  font-size: 13px;
+  color: #666;
+}
+@media screen and (min-width: 568px){
+  .app{
+    padding: 25px;
+  }
+}
